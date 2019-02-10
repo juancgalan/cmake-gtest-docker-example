@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+    dev:
+        image: rikorose/gcc-cmake:latest
+        volumes:
+                - .:/usr/src/app
+
